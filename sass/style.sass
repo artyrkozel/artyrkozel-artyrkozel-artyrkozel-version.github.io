@@ -1,0 +1,1460 @@
+
+.wr-preview
+    background-image: url('../media/main.jpg')
+    background-repeat: no-repeat
+    background-attachment: fixed
+    padding-top: 225px
+    padding-bottom: 145px
+.wr-content a
+    display: block  
+    margin-top: 50px
+.wr-preview .container
+    margin: 0 auto
+.main-title
+    text-align: center 
+.main-title p span
+    font-family: 'Raleway'
+    font-weight: 800
+    text-transform: none
+    padding-right: 5px
+.main-title p:first-of-type
+    font-size: 18px
+    text-transform: uppercase
+.main-title p:last-of-type
+    margin-top: 20px
+    background-color: #333
+    padding: 12px
+    color: #fff
+    border-radius: 5px
+    text-transform: uppercase
+.main-title p span span
+    color: #00a99d
+    margin: 0
+    padding: 0
+.features 
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-top: 50px
+    .line-left
+        margin-right: 3px 
+.features span
+    color: #00a99d
+.features .shape-icon-left
+    padding-left: 10px
+    padding-right: 20px 
+.features .shape-icon-right
+    padding-left: 20px
+    padding-right: 10px 
+.wr-content
+    max-width: 625px
+    text-align: center
+    button
+        margin-top: 50px
+        i
+            font-size: 60px
+            color: #00a99d
+            transform: rotate(90deg)
+.header-replacer
+    display: none
+    height: 130px
+.visible
+    display: block                 
+.header
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding-top: 25px
+    padding-bottom: 25px
+    position: relative
+    .nav-bar
+        display: flex
+        margin-top: 6px
+        float: left
+        position: relative
+        .seach-icon
+            margin-top: 7px    
+            margin-left: 7px
+            img
+                padding: 5px
+        li
+            margin-left: 24px
+            transition: .6s
+            &:hover
+                background-color: #00a99d
+                border-radius: 3px
+                color: #fff
+            a
+                padding: 16px
+                transition: .6s
+                &:hover
+                    color: #fff
+.f-nav
+    z-index: 99999
+    position: fixed
+    left: 0
+    top: 0
+    width: 100%
+header
+    background-color: #f9f9f9
+    &::after
+        content: ''
+        display: block
+        height: 2px
+        max-width: 100%
+        background-color: #dedede
+.header_burger
+        display: none
+        position: absolute
+        right: 40px
+        width: 30px
+        height: 20px
+        span
+            position: absolute
+            left: 0
+            top: 9px
+            width: 100%
+            height: 2px
+            background-color: #000
+        &::before, &::after
+            content: ''
+            position: absolute
+            right: 0
+            width: 100%
+            height: 2px
+            background-color: #000
+        &::before
+            top: 0
+        &::after
+            bottom: 0 
+.show
+    display: block
+@media all and (max-width: 1050px)
+    .header_burger
+        display: block
+    .header .nav-bar
+        display: none
+        position: absolute
+        right: 0
+        top: 88px
+        background-color: #000
+        top: 100
+        transition: all .4s ease 0s
+        width: 100%
+        height: 100vh
+        .seach-icon
+            display: none
+        a 
+            color: #fff
+            text-align: center
+            font-size: 20px
+.show 
+    display: block !important
+.search-icon
+    display: block
+    padding-left: 30px
+    margin-top: 17px
+.line-bottom
+   height: 2px
+   max-width: 100%
+   background-color: #dedede
+.icon-sec
+    position: relative
+    bottom: 0
+    left: 50%
+    transform: translate(-50%, 50%)                              
+.wr-offer
+    background-color: #f9f9f9
+    padding-top: 80px
+.wr-title
+    display: flex
+    justify-content: center
+    align-items: center
+    .shape-left
+        margin-left: 10px
+        margin-right: 19px
+    .shape-right
+        margin-left: 19px
+        margin-right: 10px
+    span
+        color: #00a99d
+.sub-title
+        color: #939393
+        font-size: 16px
+        margin-top: 23px
+        text-align: center
+.wr-items
+    display: flex
+    justify-content: space-between
+    margin-top: 50px
+    padding-bottom: 50px
+    .wr-item 
+        max-width: 375px
+        text-align: center
+        cursor: pointer
+
+        h3
+            margin-top: 30px
+        p
+            margin-top: 20px
+        button
+            margin-top: 20px
+            padding: 10px
+            border: 1px solid #dedede
+            border-radius: 5px
+            transition: 0.6s
+            a
+                font-size: 10px
+        &:hover button
+            background-color: #00a99d
+            color: #fff
+            -webkit-transform: scale(1.1)
+            -ms-transform: scale(1.1)
+            transform: scale(1.1)
+        &:hover .icon-item
+            background-color: #00a99d     
+.icon-item 
+    margin: 0 auto
+    width: 100px
+    height: 100px
+    border-radius: 50%   
+    background-color: #383838
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: 0.6s
+
+                       
+
+
+
+.wr-features
+    background-color: #383838
+    background-repeat: no-repeat
+    padding-top: 77px
+    overflow: hidden
+    .wr-title 
+        h2
+            color: #e4e4e4
+    .wr-item
+        display: flex
+        max-width: 330px
+        margin-top: 65px
+.features-item
+    max-width: 360px
+    margin-top: 25px
+    .icon
+        height: 40px
+        margin-top: 6px
+        color: #00a99d
+    .about-features
+        margin-left: 35px
+        p 
+            margin-top: 20px
+        h3 
+            color:#e4e4e4
+.wr-block
+    .wr-sec
+        display: flex
+        justify-content: space-between
+        .mac-img 
+            margin-top: 50px
+            position: relative
+            bottom: -37px
+    
+                               
+
+    
+
+.wr-about-features
+    padding-top: 80px
+    background-color: #f9f9f9
+.more-features
+    display: flex
+    flex-wrap: wrap
+.feature-item
+    display: flex
+    width: 33%
+    cursor: pointer
+    margin-bottom: 60px
+    &:hover
+            .top-icon
+                background-color: #000
+            .bottom-icon
+                background-color: #00a99d
+.feature-title
+    margin-left: 60px
+    h3 
+        font-weight: 500
+        color: #606060
+    .feature-subtitle
+        font-size: 12px
+        font-weight: 500
+        color: #aaaaaa
+        margin-top: 10px
+    p 
+        line-height: 2
+.item-icon
+        position: relative
+        text-align: center
+        &:hover
+            .top-icon
+                background-color: #000
+            .bottom-icon
+                background-color: #00a99d
+        .top-icon
+            width: 40px
+            height: 50px
+            display: block
+            background-color: #00a99d
+            clip-path: polygon(0 0, 100% 0, 100% 59%, 50% 100%, 0 59%)
+            border-radius: 3px
+            position: absolute
+            top: 20px
+            transition: .6s
+        .bottom-icon
+            width: 40px
+            height: 50px
+            display: block
+            background-color: #000
+            clip-path: polygon(0 0, 100% 0, 100% 59%, 50% 100%, 0 59%)
+            border-radius: 3px
+            position: absolute
+            transition: .6s
+            img
+                margin-top: 10px
+.sample-works
+    max-width: 100%
+    background-color: #f9f9f9
+    padding: 0 2px
+    text-align: center
+    .wr-title
+        padding-top: 80px
+        margin-bottom: 50px
+    .wr-card
+        display: grid
+        grid-template-columns: repeat(6, 1fr)
+        grid-gap: 4px
+        grid-template-rows: 240px 240px
+        grid-column-gap: 2px
+    .sample-btn
+        margin-top: 50px
+        margin-bottom: 100px
+        background-color: #00a99d
+        width: 80%
+        color: #e4e4e4
+        font-size: 13px
+        padding: 15px 0
+        color: #e4e4e4
+        transition: .6s
+        &:hover
+            background-color: #383838               
+.wr-progress
+        padding: 80px 0 70px 0
+        background-color: #383838
+        h2
+            color: #e4e4e4
+.wr-bars
+    margin-top: 50px
+    display: flex
+    justify-content: space-between
+.progress-bar
+    display: block
+    width: 170px
+    p 
+        color: #8a8a8a
+        font-size: 14px
+        text-transform: uppercase
+        font-weight: 800
+        display: block
+        text-align: center
+    svg 
+        width:10rem
+        height:10rem
+        .track, .fill
+            fill: rgba(0, 0, 0, 0)
+            stroke-width: 2
+            transform: rotate(90deg)translate(0px, -80px)     
+        .track
+            stroke: #e4e4e4
+                
+        .fill 
+            
+            stroke-dasharray: 419.99078369140625
+            stroke-dashoffset: -19.99078369140625
+            transition: stroke-dashoffset 1s
+            stroke: #00a99d    
+        .value           
+            fill: #e4e4e4
+            text-anchor: middle     
+.wr-card
+    display: grid
+    grid-template-columns: repeat(6, 1fr)
+    grid-template-rows: 240px 240px
+    grid-column-gap: 2px
+.card
+    width: 310px
+    padding: 2px
+    background-color: #ffffff
+    position: relative
+    overflow: hidden
+    border-radius: 5px
+    padding-bottom: 10px
+    cursor: pointer
+    &::before
+        content: ""
+        position: absolute
+        top: 0
+        left: 0
+        display: block
+        width: 100%
+        height: 100%
+        background-color: #1ca399
+        z-index: 2
+        transition: 0.5s all
+        opacity: 0
+    &:hover
+        &::before
+            opacity: .7
+    img
+        width: 100%
+        height: 100%
+        object-fit: cover
+        position: absolute
+        top: 0
+        left: 0
+    .info-card
+        position: relative
+        z-index: 3
+        color: #ffffff
+        opacity: 0
+        transform: translateY(30px)
+        transition: 0.5s all
+        h4 
+            margin-top: 40px
+        p 
+            margin-top: 10px
+            color: #e4e4e4
+    &:hover
+        .info-card
+            opacity: 1
+            transform: translateY(0px)       
+.info-card
+    .wr-back
+        display: flex
+        justify-content: center
+        i 
+            transform: rotate(-45deg)
+            color: #2eb5ab
+            transition: .6s
+        .card-iocn
+            width: 40px
+            height: 40px
+            background-color: #e4e4e4
+            display: flex
+            align-items: center
+            justify-content: center
+            border-radius: 10px
+            transform: rotate(45deg)
+            margin-top: 50px
+            transition: .6s
+            &:hover
+                z-index: 10
+                background-color: #383838
+                color: #fff
+                i
+                    color: #fff
+        h4
+            margin-top: 40px
+            color: #e4e4e4    
+        p 
+            margin-top: 12px
+            color: #e4e4e4    
+    &:hover .front
+        transform: rotateY(180deg)
+    &:hover .back
+        transform: rotateY(360deg)
+
+                        
+
+    
+
+.wr-facts
+    background-color: #383838
+    .icon-sec
+        transform: translate(-50%, -50%)        
+    .wr-title 
+        padding-top: 25px
+        h2
+            color: #e4e4e4
+.wr-counters
+    display: flex
+    justify-content: space-between
+    margin-top: 50px
+    padding-bottom: 90px
+    .counter
+        max-width: 280px
+        text-align: center
+        cursor: pointer
+        &:hover
+            .counter-shape
+                background-color: #00a99d
+                transition: .9s
+        p
+            text-transform: uppercase
+            font-weight: bold
+            color: #606060
+        .wr-counter-item
+            display: flex
+            align-items: center
+            justify-content: center
+            padding-bottom: 20px
+            span
+                font-size: 80px
+                padding: 0 20px
+                color: #e4e4e4
+                font-weight: normal
+        .counter-shape
+            width: 12px
+            height: 12px
+            border-radius: 3px
+            background-color: #484848
+            transform: rotate(45deg)
+            display: block       
+        .counter-title
+            display: flex
+            justify-content: center
+            align-items: center
+            padding-bottom: 15px
+            .counter-icon
+                padding: 0 10px
+.wr-contacts
+    background-color: #00a99d
+    .contacts
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 20px 0
+    p 
+        text-transform: uppercase
+        font-weight: bold
+        font-size: 16px
+        color: #e4e4e4
+.btn-contacts
+    display: flex
+.btn-contact
+    display: block
+    margin-left: 10px
+    background-color: #e4e4e4
+    transition: .8s
+    padding: 16px 22px
+    border-radius: 5px
+    cursor: pointer
+    transition: .8s
+    font-size: 13px
+    color: #606060
+    &:hover
+        background-color: #606060
+        color: #fff
+                      
+.slick-prev, .slick-next
+    &:hover
+        transform: translateY(-7px)   
+.wr-members
+    padding-top: 80px
+    .container
+        overflow: hidden
+    .member-arrow
+        position: relative
+        display: flex
+        max-width: 95%
+        justify-content: space-between
+        align-items: center
+        margin: 0 auto
+        top: -11px
+        .slick-prev, .slick-next
+            position: relative
+            left: 0
+            display: inline-block
+            background-color: #383838
+        .slick-next
+            margin-right: 5px
+        .slick-prev:before, .slick-next:before
+            content: ''
+            width: 30px
+            height: 30px
+            display: block
+            background-color: #383838
+            border-radius: 5px
+            opacity: 1
+            background-repeat: no-repeat
+            background-size: 10px
+            background-position: center
+        .slick-prev:before
+            background-image: url('../media/left.png')
+        .slick-next:before
+            background-image: url('../media/right.png')
+    .member-info
+       margin-bottom: 100px
+       margin-top: 50px
+       cursor: pointer
+    .info 
+        margin-left: 19px
+        &:hover
+            .member-name
+                background-color: #000
+                color: #e4e4e4
+        .info-card
+            margin-top: 50px
+    .card
+        width: 270px
+        height: 270px
+        border-radius: 5px
+        position: relative
+        perspective: 1000px
+        border-radius: 5px
+        padding: 0px
+    .member-name
+        width: 140px
+        height: 40px
+        background-color: #00a99d
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 5px
+        position: relative
+        transition: .6s
+        cursor: pointer
+        bottom: 0
+        transform: translate(50%, -50%)
+        p
+            text-transform: uppercase
+            font-weight: 800
+            color: #c5d9d7
+    .contanct-info
+        text-align: center
+        margin: 0 auto
+        p
+            font-size: 12px
+            &::after
+                content: ""
+                display: block
+                width: 40%
+                height: 1px
+                background-color: #ebebeb
+                margin: 15px auto
+        .contact-email 
+            margin-bottom: 15px
+            display: flex
+            justify-content: center
+            a 
+                color: #c1c1c1
+                font-size: 12px
+                text-transform: lowercase
+                margin-left: 14px
+                padding-top: 5px
+                font-weight: 500
+                transition: .6s
+                &:hover
+                    color: #79c6bf
+            i
+                color: #c1c1c1
+
+                                
+
+    
+
+.wr-quotes
+    background-color: #00a99d
+    .container
+        overflow: hidden
+    .arroww
+        position: relative
+        display: flex
+        left: 50%
+        max-width: 65px
+        justify-content: space-between
+        margin-bottom: 50px
+        transform: translate(-50%, 0%)
+        .slick-prev, .slick-next
+            position: relative
+            left: 0
+            display: inline-block
+        .slick-prev:before, .slick-next:before
+            content: ''
+            width: 30px
+            height: 30px
+            display: block
+            background-color: #e4e4e4
+            border-radius: 5px
+            opacity: 1
+            background-repeat: no-repeat
+            background-size: 10px
+            background-position: center
+        .slick-prev:before
+            background-image: url('../media/left-green.png')
+        .slick-next:before
+            background-image: url('../media/right-green.png')
+    .icon-sec
+        transform: translate(-50%, -50%)
+    .author-quote
+        font-size: 20px
+        text-align: center
+        color: #e4e4e4
+        margin-top: 20px
+        padding-bottom: 30px
+    .author-btn
+        display: block
+        margin: 0 auto
+        background-color: #e4e4e4
+        max-width: 250px
+        text-align: center
+        font-size: 13px
+        text-transform: upperscase
+        padding: 15px
+        border-radius: 5px
+        cursor: pointer
+        transition: .6s
+        &:hover
+            background-color: #383838
+            p 
+                color: #fff
+        p 
+            font-size: 13px
+            font-style: italic
+            color: #aaaaaa
+            transition: .6s
+            span
+                text-transform: uppercase
+                font-weight: 800
+                color: #00a99d
+                font-style: normal                              
+.wr-clients
+    background-color: #383838
+    .container
+        text-align: center
+        margin: 0 auto
+    .slick-prev:before, .slick-next:before
+            content: ''
+            width: 30px
+            height: 30px
+            display: block
+            background-color: #e4e4e4
+            border-radius: 5px
+            opacity: 1
+            background-repeat: no-repeat
+            background-size: 10px
+            background-position: center
+    .slick-prev:before
+        background-image: url('../media/left-green.png')
+    .slick-next:before
+        background-image: url('../media/right-green.png')
+    .about-slider 
+        padding: 50px
+        .about-slide
+            max-width: 270px
+            height: 160px
+            display: flex
+            align-items: center
+            justify-content: center
+            background-color: #333333    
+            margin: 0 32px
+            cursor: pointer
+        button 
+            &:hover
+                background-color: #000
+    .slick-initialized .slick-slide
+        opacity: 0.4
+        transition: .6s
+        &:hover
+            opacity: 1                       
+.wr-price .wr-title
+    padding-top: 80px
+.wr-price-table
+    margin-top: 70px
+    padding-bottom: 80px
+    .wr-title
+        margin-top: 80px
+    
+.price-table
+    height: 100%
+    border: 1px solid #dedede
+    text-align: center
+    transition: .6s
+    cursor: pointer
+    margin: 15px
+    &:hover
+        box-shadow: 0 0 10px rgba(0,0,0,0.5)
+        .type-plan
+            background-color: #00a99d
+            p 
+                color: #fff
+    .type-plan
+        position: relative
+        top: 0
+        transform: translate(0%, -50%)
+        background-color: #383838
+        display: flex
+        width: 140px
+        height: 42px
+        border-radius: 3px
+        justify-content: center
+        align-items: center
+        margin: 0 auto
+        transition: .6s
+        p
+            color: #e4e4e4
+            text-transform: uppercase
+            font-weight: bold
+            
+    .price-btn
+        font-size: 13px
+        color: #e4e4e4
+        background-color: #00a99d
+        font-weight: 700
+        margin-bottom: 25px
+        transition: .6s
+        padding: 15px
+        color: #e4e4e4 
+        &:hover
+            background-color: #383838     
+.price
+    display: flex
+    align-items: flex-end
+    justify-content: center
+    p 
+        font-size: 60px
+        position: relative
+        line-height: .7
+        margin: 0 10px 0 10px
+        font-weight: 800
+        color: #383838
+        &::after
+            content: ''
+            width: 12px
+            height: 12px
+            border-radius: 3px
+            background-color: #484848
+            transform: rotate(45deg)
+            display: inline-block
+            margin-left: 6px
+    span
+        font-size: 16px
+        color: #383838
+        position: absolute
+        top: 0
+        right: -3px
+    i 
+        color: #8a8a8a
+    sup 
+        font-weight: normal
+        font-size: 12px
+        color: #8a8a8a     
+.line-price
+    &::before, &::after
+        content: ''
+        display: block
+        width: 90%
+        height: 2px
+        background-color: #ebebeb
+        margin: 25px auto
+    ul li
+        margin-top: 25px
+        font-size: 14px
+        font-weight: 500
+        color: #7a7a7a
+        &:first-child
+            margin: 0
+    button
+        font-size: 13px
+        color: #e4e4e4
+        margin-bottom: 25px
+        background-color: #00a99d                   
+.wr-purchase
+    background-color: #8a8a8a
+    .container
+        display: flex
+        justify-content: space-between
+        padding: 73px 0
+    .btn-contact
+        background-color: #00a99d
+        color: #e4e4e4
+        transition: .6s
+        &:hover
+            background-color: #e4e4e4
+            color: #383838
+        a
+            color: #e4e4e4
+            transition: .6s
+    p 
+        font-size: 26px
+        color: #383838
+        font-weight: 800
+        i 
+            color: #00a99d
+
+
+footer
+    background-color: #383838
+    padding-top: 50px
+    .container
+        text-align: center
+    .social
+        width: 620px
+        display: flex
+        justify-content: space-between
+        margin: 0 auto
+        padding: 65px 0 75px 0
+    .social-icon
+        width: 45px
+        height: 40px
+        display: flex
+        align-items: center
+        justify-content: center
+        border: 2px solid #606060
+        border-radius: 5px
+        transition: .6s
+        &:hover
+            -webkit-transform: translateY(-7px)
+            transform: translateY(-7px)
+            box-shadow: 1px 1px #f8f8f8, 2px 2px #f8f8f8,3px 3px #f8f8f8, 4px 4px
+        i
+            font-size: 17px
+            color: #e4e4e4
+    .item-icon
+        position: relative
+        &:hover
+            .top-icon
+                background-color: #000
+            .bottom-icon
+                background-color: #00a99d
+        .top-icon
+            width: 40px
+            height: 50px
+            display: block
+            background-color: #00a99d
+            clip-path: polygon(0 0, 100% 0, 100% 59%, 50% 100%, 0 59%)
+            border-radius: 3px
+            position: absolute
+            top: 20px
+            transition: .6s
+        .bottom-icon
+            width: 40px
+            height: 50px
+            display: block
+            background-color: #000
+            clip-path: polygon(0 0, 100% 0, 100% 59%, 50% 100%, 0 59%)
+            border-radius: 3px
+            position: absolute
+            transition: .6s
+            img
+                margin-top: 10px
+                           
+.footer-top
+    border-radius: 5px
+    .logo-footer
+        margin-top: 50px
+.footer-middle
+    background-image: url('../media/map.jpg')
+    background-repeat: no-repeat
+    padding: 60px 0
+    form 
+        background-color: #f8f9f9
+        width: 370px
+        padding: 20px
+        border-radius: 5px
+        border: 1px solid #dedede
+    input
+        padding: 15px
+        border-radius: 5px
+        border: 1px solid #dedede
+    input[type="text"], input[type="email"], textarea
+        font-style: italic
+        width: 330px
+        margin-bottom: 25px
+        font-size: 12px
+        &:focus
+            border: 2px solid #8f8c8c
+    textarea
+        border: 1px solid #dedede
+        padding: 15px
+        resize: none
+        border-radius: 5px
+    .dws-btn
+        width: 330px
+        background-color: #00a99d
+        color: #dedede
+        text-transform: uppercase
+        border: none
+        font-weight: 800
+        font-size: 13px
+        transition: .6s
+        &:hover
+            background-color: #383838
+.footer-bottom 
+    background-color: #383838
+    padding-bottom: 30px
+    p 
+        font-weight: 800
+        color: #cccccc      
+    .icon-sec
+        transform: translate(-50%, -50%)
+
+    
+
+@media all and (max-width: 1850px)
+    .sample-works .wr-card
+        grid-template-columns: repeat(5, 1fr)
+        grid-template-rows: 240px 240px
+@media all and (max-width: 1580px)
+    .sample-works .wr-card
+        grid-template-columns: repeat(4, 1fr)
+        grid-template-rows: 240px 240px 240px
+@media all and (max-width: 1280px)
+    .sample-works .wr-card
+        grid-template-columns: repeat(3, 1fr)
+        grid-template-rows: 240px 240px 240px 240px
+        margin: 0 7%
+@media all and (max-width: 1270px)
+    .wr-preview
+        .wr-content
+            margin-left: 40px
+    header    
+        .logo
+            margin-left: 40px
+    
+    .wr-bars
+        justify-content: space-around
+    .wr-contacts
+        p
+            margin-left: 40px
+    .wr-members
+        .member-info
+            .slick-list
+                margin: -11px
+    .wr-clients
+        .slick-next
+            right: 10px
+        
+    .wr-price
+        .wr-price-table
+            justify-content: space-around
+        .price-table
+            width: 250px
+    .wr-purchase  
+        p
+            padding: 0 35px 
+        .btn-contacts
+            margin-right: 30px
+    .wr-footer
+        .wr-form
+            margin-left: 40px 
+@media all and (max-width: 1240px)
+    .wr-facts
+        .wr-counters
+            justify-content: space-evenly
+        .counter-line
+            display: none 
+@media all and (max-width: 1200px)
+    .wr-members .card
+        width: 100%
+    .line
+        display: none
+    .wr-bars
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        
+        justify-items: center
+    .progress-bar
+        margin-bottom: 25px
+        padding: 0 40px
+    .sample-works .wr-card
+        margin: 0 9%
+@media all and (max-width: 1120px)
+    .sample-works .wr-card
+        margin: 0 auto
+        .card
+            margin: 0 auto
+@media all and (max-width: 1050px)
+    .wr-items p
+        font-size: 14px  
+    .more-features
+        display: grid
+        grid-template-columns: repeat(2, 450px)
+        justify-content: center
+        .feature-item
+            width: 100%
+    .wr-bars
+        padding: 40px 120px
+        .progress-bar
+            text-align: center
+    .wr-contacts
+        .contacts
+            display: inline
+            text-align: center
+            padding: 0 10px
+        .btn-contacts
+            margin-top: 15px
+    .wr-members 
+        .card
+            width: 90%
+        .member-name
+            left: 6%
+    .wr-block  
+        .mac-img
+            display: none
+        .features-item
+            margin: 0
+            margin-bottom: 40px
+        .wr-sec
+            justify-content: center 
+        .wr-item
+            text-align: center
+            display: block
+            max-width: 335px
+            margin-top: 45px
+        .about-features
+            margin: 0
+        .icon
+            margin-bottom: 20px
+    .wr-clients
+        .slick-prev
+            left: 17px
+        .slick-next
+            right: 25px
+    .wr-price-table
+        margin-bottom: 0
+        .line-price ul li
+            margin-top: 18px
+            font-size: 13px
+        .type-plan p
+            font-size: 13px
+        .price p 
+            font-size: 50px
+        .slick-prev
+            left: 45%
+            background-image: url('../media/left.png')
+        .slick-next
+            right: 45%
+            background-image: url('../media/right.png')
+        .slick-next, .slick-prev
+            background-color: red
+            position: absolute
+            top: 90%
+            content: ''
+            width: 30px
+            height: 30px
+            display: block
+            background-color: #383838
+            border-radius: 5px
+            opacity: 1
+            background-repeat: no-repeat
+            background-size: 10px
+            background-position: center
+        .slick-prev:before
+            content: ''
+        .slick-next:before
+            content: ''
+    .wr-purchase .btn-contact
+        margin: 0 auto
+@media all and (max-width: 992px)
+    
+    .wr-block
+        h3
+            font-size: 17px
+    .sample-works .wr-card
+        margin: 0 1%
+    .line-price::before, .line-price::after
+        margin: 15px auto
+    .wr-about-features
+        font-size: 17px
+        .feature-item
+            h3
+                font-size: 14px
+            .about-features p
+                margin-top: 10px
+@media all and (max-width: 768px)
+    .sub-title
+        padding: 0 40px
+    .wr-features 
+        .wr-block 
+            margin-left: 0
+            .features-item
+                display: flex
+                max-width: 100%
+                text-align: -webkit-center
+                margin-top: 10px
+                flex-wrap: wrap
+                padding: 0 10px
+                .wr-item
+                    margin: 0 auto
+                    padding-top: 25px
+    
+    .more-features
+        grid-template-columns: repeat(2, 333px)
+        .feature-title p
+            line-height: 1.7
+        .feature-item
+            margin: 0 auto
+    .wr-preview .wr-content
+        margin: 0 auto
+    .wr-price 
+        .wr-title
+            padding-top: 55px
+        .wr-price-table
+            grid-template-columns: repeat(1, 350px)
+    .wr-progress .wr-bars
+        grid-template-columns: repeat(3, 1fr)
+        padding: 30px
+        svg
+            width: 8rem
+            height: 8rem
+        .sub-title
+            padding: 0 10px
+    
+    .wr-offer 
+        padding-top: 50px
+        .wr-items
+            display: flex
+            text-align: -webkit-center
+            margin-top: 10px
+            flex-wrap: wrap
+            padding: 0 10px
+            .wr-item
+                width: 371px
+                margin: 0 auto 
+                margin-top: 20px
+                .icon-item
+                    width: 90px
+                    height: 90px
+                h3
+                    font-size: 17px
+    .sample-works 
+        .wr-card
+            grid-template-columns: repeat(2, 1fr)
+            justify-items: center
+            margin: 0 8%
+        .wr-title
+            padding-top: 50px
+        button
+            margin-top: 50px
+            margin-bottom: 70px
+    .wr-facts
+        .wr-counters
+            display: grid
+            grid-template-columns: repeat(2, 1fr)
+            justify-items: center
+            padding: 0 80px
+        .wr-title
+            padding-top: 25px
+    .wr-counters .counter
+            padding-bottom: 55px
+    .wr-members
+        padding-top: 50px
+        .card
+            width: 93%
+            padding: 0
+        .info
+            margin-left: 22px
+        .member-name
+            left: 12%
+    .wr-purchase .container
+        padding: 30px 0
+        display: block
+        text-align: center
+        .btn-contacts
+            margin: 10px 0 0 
+    
+@media all and (max-width: 720px)
+    header 
+        .logo
+            margin-left: 25px
+        .header_burger
+            right: 25px
+    .wr-preview 
+        .wr-content
+            padding: 0 15px
+        .main-title 
+            padding-top: 125px
+            p:first-of-type 
+                font-size: 13px
+            p:last-of-type 
+                font-size: 13px
+                margin: 10px 18px
+            h1 
+                font-size: 32px
+        .features
+            .shape-icon-right,.shape-icon-left
+                display: none
+            h2 
+                font-size: 22px
+        button
+            padding-bottom: 60px
+            margin: 30px 0
+    .wr-offer
+        padding-top: 45px
+        .wr-items
+            padding-bottom: 39px 
+            .wr-item
+                margin-top: 35px
+                h3
+                    font-size: 15px
+                p 
+                    padding: 0 11px
+                    font-size: 14px
+    .wr-features
+        .about-features p
+            margin-top: 10px
+    .wr-about-features
+        padding-top: 40px
+        .more-features
+            grid-template-columns: repeat(1, 350px)
+            justify-content: center
+            p
+                font-size: 12px
+        .feature-item
+            width: 90%
+            padding-bottom: 30px
+            h3
+                font-size: 14px
+        .feature-title .feature-subtitle
+            margin: 0
+    .wr-members
+        .member-name
+            left: 12%
+    .wr-progress 
+        .wr-bars
+            grid-template-columns: repeat(2, 130px)
+            margin: 0 auto
+            .progress-bar
+                padding: 0
+                width: 100%
+    .sample-works .wr-card
+            margin: 5%
+    .wr-quotes .author-quote
+        font-size: 16px
+        padding: 0 30px 40px
+    .wr-price-table 
+        margin-top: 30px
+        .slick-prev
+            left: 35%
+        .slick-next 
+            right: 35%
+    .wr-contacts
+        p
+            margin: 0 auto
+            padding: 0px 5px 0px 0
+        button
+            margin-top: 10px
+    .sub-title
+            padding: 0px 21px
+            font-size: 14px
+            margin-top: 10px
+    .line-left, .line-right
+        display: none
+    footer 
+        .social
+            width: 70%
+            display: grid
+            margin-top: -40px
+            padding-bottom: 75px
+            grid-template-columns: repeat(6, 45px)
+            grid-template-rows: 60px 60px 60px
+            justify-items: center
+            padding: 85px 0 0
+@media all and (max-width: 576px)
+    .wr-preview
+        padding: 0
+    .wr-title
+        h2
+            font-size: 22px
+        .shape-right 
+            display: none
+        .shape-left
+            display: none
+    .sample-works .wr-card
+        grid-template-columns: repeat(1, 1fr)
+        .flow
+            display: none
+        .card
+            width: 80%
+            height: 90%
+    .wr-facts
+        .wr-counters
+            grid-template-columns: repeat(2, 1fr)
+            grid-gap: 40px
+            margin: 30px 10px 0 10px
+            padding-bottom: 25px
+            .counter
+                padding-bottom: 20px
+                span 
+                    font-size: 50px
+                p 
+                    font-size: 13px
+    .wr-quotes 
+        .author-quote
+            font-size: 16px
+        .slick-next:before
+            right: 207px
+            
+        .slick-prev:before
+            left: 207px  
+        .wr-form
+            margin: 0 auto  
+    footer .wr-form
+        width: 260px
+        margin: 0 auto
+        input, textarea
+            width: 240px
+    footer .social
+        grid-template-columns: repeat(5, 45px)
+    .footer-middle 
+        form
+            width: 300px
+            margin: 0 auto
+        input[type=text], input[type=email], textarea
+            width: 270px
+        .dws-btn
+            width: 270px
+@media all and (max-width: 400px)
+    .wr-preview 
+        .features 
+            margin-top: 20px
+    .wr-offer 
+        .sub-title
+            padding: 0 13px
+            font-size: 15px
+        .wr-items 
+            .wr-item
+                font-size: 14px
+                h3 
+                    font-size: 17px
+@media all and (max-width: 360px)
+    .wr-title .wr-progress
+        .shape-right, .shape-left
+            display: none
+    .wr-preview 
+        .main-title 
+            h1
+                font-size: 26px
+            p:last-of-type
+                font-size: 12px
+    .wr-about-features 
+        .feature-item
+            width: 77%
+    .wr-facts
+        .wr-counters
+            grid-template-columns: repeat(1, 1fr)
+    .wr-members .member-name
+        left: 6%
+    .footer-middle 
+        form
+            width: 250px
+            margin: 0 auto
+        input[type=text], input[type=email], textarea
+            width: 210px
+        .dws-btn
+            width: 210px
+    footer
+        .social
+            width: 80%

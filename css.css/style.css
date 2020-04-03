@@ -1,0 +1,10 @@
+body {
+  background: red;
+  font-style: 22px;
+}
+
+body:hover {
+  zoom: 1;
+  height: 110px;
+}
+/*# sourceMappingURL=style.css.map */
