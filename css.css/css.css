@@ -1623,6 +1623,10 @@ footer .item-icon .bottom-icon img {
   }
 }
 @media all and (max-width: 720px) {
+  .wr-content a {
+    padding-bottom: 80px;
+  }
+
   header .logo {
     margin-left: 25px;
   }
